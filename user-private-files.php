@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: User Private Files
+Plugin Name: User Private Files 1.1
 Description: Plugin to manage private files for users. You can upload files for your users to access, files are only viewable/downloadable for the designated users.
 Author: Hai Bui
 Author URI: http://haibui.com
@@ -23,7 +23,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 //*********** install/uninstall actions ********************//
-register_activation_hook(__FILE__,'upf_install');
+rgister_activation_hook(__FILE__,'upf_install');
 register_deactivation_hook(__FILE__, 'upf_uninstall');
 function upf_install(){
     upf_uninstall();//force to uninstall option
