@@ -23,7 +23,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 //*********** install/uninstall actions ********************//
-rgister_activation_hook(__FILE__,'upf_install');
+register_activation_hook(__FILE__,'upf_install');
 register_deactivation_hook(__FILE__, 'upf_uninstall');
 function upf_install(){
     upf_uninstall();//force to uninstall option
