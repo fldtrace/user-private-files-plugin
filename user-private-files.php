@@ -2,8 +2,8 @@
 /*
 Plugin Name: User Private Files 1.1
 Description: Plugin to manage private files for users. You can upload files for your users to access, files are only viewable/downloadable for the designated users.
-Author: Hai Bui
-Author URI: http://haibui.com
+Author: Hai Bui - FLDtrace team
+Author URI: http://www.fldtrace.com
 License: GPL
 Version: 1.1
 
